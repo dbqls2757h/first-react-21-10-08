@@ -8,6 +8,7 @@ import { Component } from "react";
 
 // export default ClassComponent;
 
+
 //클래스형 props
 export class ClassComponent extends Component {
   render() {
@@ -19,7 +20,7 @@ export class ClassComponent extends Component {
 
     return (
       <>
-        <div>클래스 함수 컴포넌트!</div>;
+        <div>클래스 함수 컴포넌트!</div>
         <h3>
           안녕 내이름은 {nickName} 나이는 {age}살이야!🍳
         </h3>

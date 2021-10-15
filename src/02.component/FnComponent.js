@@ -4,6 +4,7 @@
 // }
 
 // export default FnComponent;
+//=>export 내부에 적을 때는 import {}빼고 불러와야함
 
 //2.
 // const FnComponent = () => {
@@ -16,7 +17,6 @@
 // export const FnComponent = () => {
 //   return <div>함수형 컴포넌트~</div>;
 // };
-
 
 //함수형 props
 export const FnComponent = ({ foodName, dinner }) => {
