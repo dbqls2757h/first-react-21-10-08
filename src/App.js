@@ -7,8 +7,19 @@
 // import "./style.css";
 
 //ㅡㅡㅡ3일차ㅡㅡㅡ
-import { MapFn } from "./03.map/MapFn";
-import { Kakao } from "./03.map/Kakao";
+// import { MapFn } from "./03.map/MapFn";
+// import { Kakao } from "./03.map/Kakao";
+
+// ㅡㅡㅡ3일차 복습ㅡㅡㅡ
+// import { ReMap } from "./03.Remap/ReMap";
+// import { ReKakao } from "./03.Remap/ReKakao";
+// import { Pinterest } from "./03.Remap/Pinterest";
+// import "./styles/Pinstyle.css";
+
+//ㅡㅡㅡ4일차ㅡㅡㅡ
+// import { BaseStyle } from "./04.styledComponent/BaseStyle";
+import { StyledCom } from "./04.styledComponent/StyledCom";
+import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
 
 // const foods = [
 //   {
@@ -79,9 +90,25 @@ function App() {
     // </>
 
     //ㅡㅡㅡ3일차ㅡㅡㅡ
+    // <>
+    //   {/* <MapFn /> */}
+    //   <Kakao />
+    // </>
+
+    // // ㅡㅡㅡ3일차 복습ㅡㅡㅡ
+    // <>
+    //   {/* <ReMap /> */}
+    //   {/* <ReKakao /> */}
+    //   <Pinterest />
+    // </>
+
+    // // ㅡㅡㅡ4일차 복습ㅡㅡㅡ
     <>
-      {/* <MapFn /> */}
-      <Kakao />
+      {/* <BaseStyle /> */}
+
+      {/* global => 초기화 영역은 위로 */}
+      <GlobalStyle />
+      <StyledCom />
     </>
   );
 }

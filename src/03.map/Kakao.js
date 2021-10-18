@@ -46,7 +46,7 @@ export const Kakao = () => {
           <div key={con.id} style={{ width: "350px" }}>
             <div
               style={{
-                widht: "100%",
+                width: "100%",
                 height: "300px",
                 background: `url(${con.img}) no-repeat center / cover`,
               }}

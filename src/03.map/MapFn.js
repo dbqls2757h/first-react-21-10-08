@@ -53,9 +53,9 @@ export const MapFn = () => {
       <br />
       오늘의 메뉴는 <h3>{food}</h3> */}
 
-      {/* {nums.map((num) => (
+      {nums.map((num) => (
         <div key={num}>{num}번째 게시물</div>
-      ))} */}
+      ))}
 
       <h3>브랜드</h3>
       <ul>
