@@ -14,12 +14,21 @@
 // import { ReMap } from "./03.Remap/ReMap";
 // import { ReKakao } from "./03.Remap/ReKakao";
 // import { Pinterest } from "./03.Remap/Pinterest";
+// import { PinGlobalStyle } from "./GlobalStyled/PinGlobalStyle";
 // import "./styles/Pinstyle.css";
 
 //ㅡㅡㅡ4일차ㅡㅡㅡ
 // import { BaseStyle } from "./04.styledComponent/BaseStyle";
-import { StyledCom } from "./04.styledComponent/StyledCom";
+// import { StyledCom } from "./04.styledComponent/StyledCom";
 import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
+
+// ㅡㅡㅡ4일차복습ㅡㅡㅡ
+// import { ReBaseStyle } from "./04.RestyledComponent/ReBaseStyle";
+// import { ReStyledCom } from "./04.RestyledComponent/ReStyledCom";
+// import { ReGlobalStyle } from "./GlobalStyled/ReGlobalStyle";
+import { StyledConEx } from "./05.Contents/StyledConEx";
+
+// ㅡㅡㅡ5일차ㅡㅡㅡ
 
 // const foods = [
 //   {
@@ -95,21 +104,31 @@ function App() {
     //   <Kakao />
     // </>
 
-    // // ㅡㅡㅡ3일차 복습ㅡㅡㅡ
+    // ㅡㅡㅡ3일차 복습ㅡㅡㅡ
     // <>
-    //   {/* <ReMap /> */}
+    //   {/* // <ReMap /> */}
     //   {/* <ReKakao /> */}
+    //   <PinGlobalStyle />
     //   <Pinterest />
     // </>
 
-    // // ㅡㅡㅡ4일차 복습ㅡㅡㅡ
+    // ㅡㅡㅡ4일차ㅡㅡㅡ
     <>
-      {/* <BaseStyle /> */}
-
+      {/* // <BaseStyle /> */}
       {/* global => 초기화 영역은 위로 */}
       <GlobalStyle />
-      <StyledCom />
+      {/* // <StyledCom /> */}
+      <StyledConEx />
     </>
+
+    //ㅡㅡㅡ4일차 복습ㅡㅡㅡ
+    // <>
+    //   {/* <ReBaseStyle /> */}
+    //   {/* <ReGlobalStyle />
+    //   <ReStyledCom /> */}
+    // </>
+
+    // ㅡㅡㅡ5일차ㅡㅡㅡ
   );
 }
 
