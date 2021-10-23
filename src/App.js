@@ -26,9 +26,16 @@ import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
 // import { ReBaseStyle } from "./04.RestyledComponent/ReBaseStyle";
 // import { ReStyledCom } from "./04.RestyledComponent/ReStyledCom";
 // import { ReGlobalStyle } from "./GlobalStyled/ReGlobalStyle";
-import { StyledConEx } from "./05.Contents/StyledConEx";
 
 // ㅡㅡㅡ5일차ㅡㅡㅡ
+// import { StyledConEx } from "./05.Contents/StyledConEx";
+
+// ㅡㅡㅡ5일차 복습ㅡㅡㅡ
+// import { ReStyledConEx } from "./05.ReContents/ReStyledConEx";
+
+//ㅡㅡㅡ6일차ㅡㅡㅡ
+// import { MusicHw } from "./06.MusicApp/MusicHw";
+import { MusicEx } from "./06.MusicApp/MusicEx";
 
 // const foods = [
 //   {
@@ -79,56 +86,55 @@ import { StyledConEx } from "./05.Contents/StyledConEx";
 
 function App() {
   return (
-    // <div>
-    //   <h1>안녕!🧡💛💚💙💜🤎🖤</h1>
-    // </div>
-
-    //=> 부모태그로 감싸줘야 오류가 안남(extra/fragment 태그)/ 단독태그는 꼭 /로 닫아줘야함
-    // <>
-    //   <div>안녕🧡💛💚💙💜🤎🖤</div>
-    //   <div>안녕🧡💛💚💙💜🤎🖤</div>
-    //   <input type="text" />
-    // </>
-
-    //ㅡㅡㅡ2일차ㅡㅡㅡ
-    // <>
-    //   <FnComponent foodName={"피자"} dinner={"샐러드"} />
-    //   <ClassComponent nickName={"이유빈"} age={"24"} />
-    //   <Food menu={foods} />
-    //   <Insta allUser={userName} />
-    // </>
-
-    //ㅡㅡㅡ3일차ㅡㅡㅡ
-    // <>
-    //   {/* <MapFn /> */}
-    //   <Kakao />
-    // </>
-
-    // ㅡㅡㅡ3일차 복습ㅡㅡㅡ
-    // <>
-    //   {/* // <ReMap /> */}
-    //   {/* <ReKakao /> */}
-    //   <PinGlobalStyle />
-    //   <Pinterest />
-    // </>
-
-    // ㅡㅡㅡ4일차ㅡㅡㅡ
     <>
-      {/* // <BaseStyle /> */}
+      {/* <div>
+       <h1>안녕!🧡💛💚💙💜🤎🖤</h1>
+     </div> */}
+
+      {/* => 부모태그로 감싸줘야 오류가 안남(extra/fragment 태그)/ 단독태그는 꼭 /로
+      닫아줘야함 */}
+      {/* <div>안녕🧡💛💚💙💜🤎🖤</div>
+      <div>안녕🧡💛💚💙💜🤎🖤</div>
+      <input type="text" /> */}
+
       {/* global => 초기화 영역은 위로 */}
       <GlobalStyle />
-      {/* // <StyledCom /> */}
-      <StyledConEx />
+
+      {/* ㅡㅡㅡ2일차ㅡㅡㅡ */}
+      {/* <FnComponent foodName={"피자"} dinner={"샐러드"} /> */}
+      {/* <ClassComponent nickName={"이유빈"} age={"24"} /> */}
+      {/* <Food menu={foods} /> */}
+      {/* <Insta allUser={userName} /> */}
+
+      {/* ㅡㅡㅡ3일차ㅡㅡㅡ */}
+      {/* <MapFn /> */}
+      {/* <Kakao /> */}
+
+      {/* ㅡㅡㅡ3일차 복습ㅡㅡㅡ */}
+      {/*  <ReMap /> */}
+      {/* <ReKakao /> */}
+      {/* <PinGlobalStyle /> */}
+      {/* <Pinterest /> */}
+
+      {/* ㅡㅡㅡ4일차ㅡㅡㅡ */}
+      {/*  <BaseStyle /> */}
+      {/*  <StyledCom /> */}
+
+      {/* ㅡㅡㅡ4일차 복습ㅡㅡㅡ */}
+      {/* <ReBaseStyle /> */}
+      {/* <ReGlobalStyle />
+       <ReStyledCom /> */}
+
+      {/* ㅡㅡㅡ5일차ㅡㅡㅡ */}
+      {/* <StyledConEx /> */}
+
+      {/* ㅡㅡㅡ5일차ㅡㅡㅡ */}
+      {/* <ReStyledConEx /> */}
+
+      {/* ㅡㅡㅡ6일차ㅡㅡㅡ */}
+      {/* <MusicHWw /> */}
+      <MusicEx />
     </>
-
-    //ㅡㅡㅡ4일차 복습ㅡㅡㅡ
-    // <>
-    //   {/* <ReBaseStyle /> */}
-    //   {/* <ReGlobalStyle />
-    //   <ReStyledCom /> */}
-    // </>
-
-    // ㅡㅡㅡ5일차ㅡㅡㅡ
   );
 }
 
