@@ -35,7 +35,10 @@ import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
 
 //ㅡㅡㅡ6일차ㅡㅡㅡ
 // import { MusicHw } from "./06.MusicApp/MusicHw";
-import { MusicEx } from "./06.MusicApp/MusicEx";
+// import { MusicEx } from "./06.MusicApp/MusicEx";
+
+//ㅡㅡㅡ6일차 복습ㅡㅡㅡ
+import { ReMusicApp } from "./06.ReMusicApp/ReMusicApp";
 
 // const foods = [
 //   {
@@ -133,7 +136,10 @@ function App() {
 
       {/* ㅡㅡㅡ6일차ㅡㅡㅡ */}
       {/* <MusicHWw /> */}
-      <MusicEx />
+      {/* <MusicEx /> */}
+
+      {/* ㅡㅡㅡ6일차 복습 */}
+      <ReMusicApp />
     </>
   );
 }
