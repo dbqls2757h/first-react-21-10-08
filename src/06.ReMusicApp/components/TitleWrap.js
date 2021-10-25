@@ -21,6 +21,7 @@ const TitleWrapRight = styled.div`
 const Cover = styled.div`
   width: 500px;
   height: 500px;
+  border-radius: 10px;
 `;
 
 const Singer = styled.div`

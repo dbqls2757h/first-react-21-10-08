@@ -38,7 +38,12 @@ import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
 // import { MusicEx } from "./06.MusicApp/MusicEx";
 
 //ㅡㅡㅡ6일차 복습ㅡㅡㅡ
-import { ReMusicApp } from "./06.ReMusicApp/ReMusicApp";
+// import { ReMusicApp } from "./06.ReMusicApp/ReMusicApp";
+
+//ㅡㅡㅡ7일차ㅡㅡㅡ
+// import { ClassEvent } from "./07.Event/ClassEvent";
+// import { FnEvent } from "./07.Event/FnEvent";
+import { ColorEvent } from "./07.Event/ColorEvent";
 
 // const foods = [
 //   {
@@ -138,8 +143,13 @@ function App() {
       {/* <MusicHWw /> */}
       {/* <MusicEx /> */}
 
-      {/* ㅡㅡㅡ6일차 복습 */}
-      <ReMusicApp />
+      {/* ㅡㅡㅡ6일차 복습ㅡㅡㅡ */}
+      {/* <ReMusicApp /> */}
+
+      {/* ㅡㅡㅡ6일차 복습ㅡㅡㅡ */}
+      {/* <ClassEvent /> */}
+      {/* <FnEvent /> */}
+      <ColorEvent />
     </>
   );
 }
