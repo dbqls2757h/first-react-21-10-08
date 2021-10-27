@@ -43,7 +43,22 @@ import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
 //ㅡㅡㅡ7일차ㅡㅡㅡ
 // import { ClassEvent } from "./07.Event/ClassEvent";
 // import { FnEvent } from "./07.Event/FnEvent";
-import { ColorEvent } from "./07.Event/ColorEvent";
+// import { ColorEvent } from "./07.Event/ColorEvent";
+// import { AniEvent } from "./07.Event/AniEvent";
+
+// ㅡㅡㅡ7일차 복습ㅡㅡㅡ
+// import { ReClassEvent } from "./07.ReEvent/ReClassEvent";
+// import { ReFnEvent } from "./07.ReEvent/ReFnEvent";
+// import { ReColorEvent } from "./07.ReEvent/ReColorEvent";
+// import { ReAniEvent } from "./07.ReEvent/ReAniEvent";
+// import { AnimationEventHw } from "./07.ReEvent/AnimationEventHw";
+// import { PopUpHw } from "./07.ReEvent/PopUpHw";
+
+// import { PopUpEx } from "./07.Event/PopUpEx";
+// import { AnimationEventEx } from "./07.Event/AnimationEventEx";
+
+// ㅡㅡㅡ8일차ㅡㅡㅡ
+import { UseRoute } from "./08.router/UseRoute";
 
 // const foods = [
 //   {
@@ -146,10 +161,24 @@ function App() {
       {/* ㅡㅡㅡ6일차 복습ㅡㅡㅡ */}
       {/* <ReMusicApp /> */}
 
-      {/* ㅡㅡㅡ6일차 복습ㅡㅡㅡ */}
+      {/* ㅡㅡㅡ7일차ㅡㅡㅡ */}
       {/* <ClassEvent /> */}
       {/* <FnEvent /> */}
-      <ColorEvent />
+      {/* <ColorEvent /> */}
+      {/* <AniEvent /> */}
+
+      {/* ㅡㅡㅡ7일차 복습 */}
+      {/* <ReClassEvent /> */}
+      {/* <ReFnEvent /> */}
+      {/* <ReColorEvent /> */}
+      {/* <ReAniEvent /> */}
+      {/* <AnimationEventHw /> */}
+      {/* <PopUpHw /> */}
+
+      {/* ㅡㅡㅡ8일차ㅡㅡㅡ */}
+      {/* <PopUpEx /> */}
+      {/* <AnimationEventEx /> */}
+      <UseRoute />
     </>
   );
 }

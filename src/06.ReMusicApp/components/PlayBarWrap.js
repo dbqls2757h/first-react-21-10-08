@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 const SPlayBarWrap = styled.div`
   margin-top: 30px;
@@ -12,10 +12,18 @@ const GageWrap = styled.div`
   background-color: lightgray;
 `;
 
+const playing = keyframes`
+  100% {
+    width: 100%;
+  }
+`;
+
 const Gage = styled.div`
-  width: 10%;
+  width: 0;
+  /* width: 10%; */
   height: 5px;
   background-color: crimson;
+  animation: 30s ${playing} infinite;
 `;
 
 const PlayNums = styled.div`

@@ -1,9 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
 
-//1.useState 정의
-//2.이벤트정의하기
-
 const Box = styled.div`
   width: 300px;
   height: 300px;
@@ -15,11 +12,11 @@ const Box = styled.div`
   font-size: 40px;
 `;
 
-export const ColorEvent = () => {
-  const [color, setColor] = useState("skyblue");
+export const ReColorEvent = () => {
+  const [color, setColor] = useState("pink");
   const [num, setNum] = useState(0);
   console.log(color);
-  
+
   //   color => useState => bgColor={} =>props로 전달
 
   const onClickColor = () => {

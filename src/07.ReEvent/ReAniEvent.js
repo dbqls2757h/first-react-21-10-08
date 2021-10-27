@@ -19,7 +19,7 @@ const Box = styled.div`
   animation: 3s ${moveAni} forwards;
 `;
 
-export const AniEvent = () => {
+export const ReAniEvent = () => {
   return (
     <div>
       <Box></Box>
