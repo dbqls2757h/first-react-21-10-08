@@ -56,9 +56,16 @@ import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
 
 // import { PopUpEx } from "./07.Event/PopUpEx";
 // import { AnimationEventEx } from "./07.Event/AnimationEventEx";
+// import { RePopUpEx } from "./07.ReEvent/RePopUpEx";
+// import { ReAnimationEventEx } from "./07.ReEvent/ReAnimationEventEx";
 
 // ㅡㅡㅡ8일차ㅡㅡㅡ
-import { UseRoute } from "./08.router/UseRoute";
+// import { UseRoute } from "./08.router/UseRoute";
+// import { ReUseRoute } from "./08.Rerouter/ReUseRoute";
+// import { RouterHw } from "./08.Rerouter/RouterHw";
+
+// ㅡㅡㅡ9일차ㅡㅡㅡ
+import { BaseWebRoute } from "./09.BaseWeb/BaseWebRoute";
 
 // const foods = [
 //   {
@@ -172,13 +179,24 @@ function App() {
       {/* <ReFnEvent /> */}
       {/* <ReColorEvent /> */}
       {/* <ReAniEvent /> */}
+
       {/* <AnimationEventHw /> */}
       {/* <PopUpHw /> */}
 
-      {/* ㅡㅡㅡ8일차ㅡㅡㅡ */}
       {/* <PopUpEx /> */}
       {/* <AnimationEventEx /> */}
-      <UseRoute />
+      {/* <RePopUpEx /> */}
+      {/* <ReAnimationEventEx /> */}
+
+      {/* ㅡㅡㅡ8일차ㅡㅡㅡ */}
+      {/* <UseRoute /> */}
+
+      {/* ㅡㅡㅡ8일차 복습ㅡㅡㅡ */}
+      {/* <ReUseRoute /> */}
+      {/* <RouterHw /> */}
+
+      {/* 9일차 */}
+      <BaseWebRoute />
     </>
   );
 }

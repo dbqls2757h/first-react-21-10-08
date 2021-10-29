@@ -15,7 +15,7 @@ const Box = styled.div`
   position: absolute;
   top: 20%;
   left: 30%;
-  visibility: ${(props) => props.onPopCon};
+  visibility: ${(props) => props.PopCon};
 
   h3 {
     width: 50px;
@@ -60,7 +60,7 @@ export const PopUpHw = () => {
   return (
     <div>
       <Con onClick={onClickPopUp}></Con>
-      <Box onPopCon={fade}>
+      <Box PopCon={fade}>
         <h3 onClick={offClickPopUp}>x</h3>
       </Box>
     </div>

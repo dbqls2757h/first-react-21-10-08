@@ -41,8 +41,11 @@ export const GlobalStyle = createGlobalStyle`
     *{
         box-sizing: border-box;
     }
+    
+    a{text-decoration: none;
+    color: black;}
 
 
-    body{font-family: 'Noto Sans KR', sans-serif;}
+    /* body{font-family: 'Noto Sans KR', sans-serif;} */
 
 `;
