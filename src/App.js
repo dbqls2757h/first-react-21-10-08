@@ -65,7 +65,11 @@ import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
 // import { RouterHw } from "./08.Rerouter/RouterHw";
 
 // ㅡㅡㅡ9일차ㅡㅡㅡ
-import { BaseWebRoute } from "./09.BaseWeb/BaseWebRoute";
+// import { BaseWebRoute } from "./09.BaseWeb/BaseWebRoute";
+
+// ㅡㅡㅡ10일차ㅡㅡㅡ
+// import { Login } from "./10.form/Login";
+import { MainRouter } from "./10.form/MainRouter";
 
 // const foods = [
 //   {
@@ -195,8 +199,12 @@ function App() {
       {/* <ReUseRoute /> */}
       {/* <RouterHw /> */}
 
-      {/* 9일차 */}
-      <BaseWebRoute />
+      {/*ㅡㅡㅡ 9일차ㅡㅡㅡ */}
+      {/* <BaseWebRoute /> */}
+
+      {/* ㅡㅡㅡ10일차ㅡㅡㅡ */}
+      {/* <Login /> */}
+      <MainRouter />
     </>
   );
 }
