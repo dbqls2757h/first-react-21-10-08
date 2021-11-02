@@ -32,6 +32,10 @@ export const Icons = {
   nextArrow: <i class="fas fa-angle-double-right"></i>,
   share: <i class="fas fa-retweet"></i>,
   hamBtn: <i class="fas fa-bars"></i>,
+  circlePlay: <i class="far fa-play-circle"></i>,
+  plus: <i class="fas fa-plus"></i>,
+  dotMenu: <i class="fas fa-ellipsis-v"></i>,
+  search: <i class="fas fa-search"></i>
 };
 
 export const GlobalStyle = createGlobalStyle`

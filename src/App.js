@@ -69,7 +69,12 @@ import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
 
 // ㅡㅡㅡ10일차ㅡㅡㅡ
 // import { Login } from "./10.form/Login";
-import { MainRouter } from "./10.form/MainRouter";
+// import { MainRouter } from "./10.form/MainRouter";
+
+// ㅡㅡㅡ10일차 복습ㅡㅡㅡ
+// import { ReLogin } from "./10.ReForm/ReLogin";
+// import { ReMainRouter } from "./10.ReForm/ReMainRouter";
+import { GenieMusic } from "./GenieMusic/GenieMusic";
 
 // const foods = [
 //   {
@@ -204,7 +209,12 @@ function App() {
 
       {/* ㅡㅡㅡ10일차ㅡㅡㅡ */}
       {/* <Login /> */}
-      <MainRouter />
+      {/* <MainRouter /> */}
+
+      {/* ㅡㅡㅡ10일차 복습ㅡㅡㅡ */}
+      {/* <ReLogin /> */}
+      {/* <ReMainRouter /> */}
+      <GenieMusic />
     </>
   );
 }
