@@ -35,7 +35,7 @@ export const Icons = {
   circlePlay: <i class="far fa-play-circle"></i>,
   plus: <i class="fas fa-plus"></i>,
   dotMenu: <i class="fas fa-ellipsis-v"></i>,
-  search: <i class="fas fa-search"></i>
+  search: <i class="fas fa-search"></i>,
 };
 
 export const GlobalStyle = createGlobalStyle`
